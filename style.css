@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+
+}
+
+
+body {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    background: #1C1C1C;
+    margin: 0 auto;
+    padding: 100px 0px;
+    width: 550px;
+    height: 356px;
+
+}
+
+.color-pickeer__container {
+    height: auto;
+    background: #FFF;
+
+
+}
+
+
+
+.color-pickeer__header {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding: 25px 14px;
+    flex-grow: 1;
+
+
+}
+
+
+.color-pickeer__header form input[type="color"] {
+    width: 51px;
+    height: 34px;
+    border: 0.5px solid #313131;
+}
