@@ -17,7 +17,7 @@ body {
 
 }
 
-.color-pickeer__container {
+.color-picker__container {
     height: auto;
     background: #FFF;
 
@@ -91,4 +91,16 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 16px; /* 133.333% */
+}
+
+
+
+
+/*** Color Bars ***/
+
+
+.color-picker__container .color-picker__color-bars {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    background: #F55A5A;
 }
