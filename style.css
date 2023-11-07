@@ -98,8 +98,14 @@ body {
 
 /*** Color Bars ***/
 
-
 .color-picker__container .color-picker__color-bars {
+    height: 550px;
+
+
+}
+
+
+.color-picker__container .color-picker__color-bars > * {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
     background: #F55A5A;
