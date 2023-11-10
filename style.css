@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
     padding: 100px 0px;
     width: 550px;
-    height: 356px;
+
 
 }
 
@@ -104,9 +104,28 @@ body {
 
 }
 
-
-.color-picker__container .color-picker__color-bars > * {
+.color-picker__container .color-picker__color-bars  {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+}
+
+.color-picker__color-bars .color-bar__1 {
     background: #F55A5A;
+}
+
+
+.color-picker__color-bars .color-bar__2 {
+    background: #2B283A;
+}
+
+.color-picker__color-bars .color-bar__3 {
+    background: #FBF3AB;
+}
+
+.color-picker__color-bars .color-bar__4 {
+    background: #AAD1B6;
+}
+
+.color-picker__color-bars .color-bar__5 {
+    background: #A626D3;
 }
